@@ -2,7 +2,7 @@ package cuentas;
 
 public class CuentaCorriente extends CuentaBancaria {
 
-	private double comision = 0.23;
+	private double comision;
 
 	public CuentaCorriente(String titular, double saldoInicial, double comision) {
 		super(titular, saldoInicial);
