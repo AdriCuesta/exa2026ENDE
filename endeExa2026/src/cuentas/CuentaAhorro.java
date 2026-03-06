@@ -13,4 +13,13 @@ public class CuentaAhorro extends CuentaBancaria {
 	public double calcularInteres() {
 		return (saldo * interes);
 	}
+
+	public double getInteres() {
+		return interes;
+	}
+
+	public void setInteres(double interes) {
+		this.interes = interes;
+	}
+
 }
