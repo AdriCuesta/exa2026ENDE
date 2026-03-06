@@ -30,6 +30,8 @@ public abstract class CuentaBancaria {
 
         saldo -= cantidad;
     }
+    
+    public abstract double calcularInteres();
 
 }
 
