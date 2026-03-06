@@ -2,7 +2,7 @@ package cuentas;
 
 public class CuentaAhorro extends CuentaBancaria {
 
-	private double interes = 0.23;
+	private double interes;
 
 	public CuentaAhorro(String titular, double saldoInicial, double interes) {
 		super(titular, saldoInicial);
